@@ -1,0 +1,194 @@
+.centroTela{
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+}
+
+.background { 
+    background: url(img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } 
+
+.fundo {
+    background-image: url(img/bg_site.jpg);
+    background-position: center/cover;
+    background-repeat: no-repeat;
+    /* background-image: url(img/bg_site.jpg); */
+}
+
+.logo-img{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background-cinza{
+    background: #eee;
+    min-height: 50px;
+}
+
+.mdl-grid{
+    min-height: 800px;
+    color: #757575 !important;
+}
+
+.md-icons-Style{
+    font-size: 20px;
+    border-right-width: 5px;
+    padding-right: 0px;
+    padding-top: 0;
+    border-top-width: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.my-style-card{width: 410px;}
+
+.my-style-cardSP{width: 410px;}
+.my-style-cardIN{width: 410px;}
+.my-style-cardMT{width: 410px;}
+.my-style-cardNAV{width: 410px;}
+.my-style-cardMP{width: 410px;}
+.my-style-cardAng{width: 410px;}
+.my-style-cardV{width: 410px;}
+.my-style-cardC{width: 410px;}
+.my-style-cardPG{width: 410px;}
+.my-style-cardCHI{width: 410px;}
+.my-style-cardJM{width: 410px;}
+
+.my-style-card > .mdl-card__title{
+    color: #fff;
+    height: 176px;
+    background: url("../img/cristo.jpg") center/cover;
+}
+
+.my-style-cardSP > .mdl-card__title{color: #fff;height: 176px;background: url("../img/torres1.jpg") center/cover;}
+.my-style-cardMT > .mdl-card__title{ <!-- Bonito—MatoGrossodoSul -->width: 410px;color: #fff;height: 176px;background: url("../img/mt.jpg") center/cover;}
+.my-style-cardIN > .mdl-card__title{ <!-- INg -->width: 410px;color: #fff;height: 176px;background: url("../img/ing.jpg") center/cover;}
+.my-style-cardNAV > .mdl-card__title{ <!-- NAvagiogrecia --> width: 410px;color: #fff;height: 176px;background: url("../img/navagio.jpg") center/cover;}
+.my-style-cardMP > .mdl-card__title{ <!-- macchupicchu --> width: 410px; color: #fff;height: 176px;background: url("../img/macchupicchu.jpg") center/cover;}
+.my-style-cardAng > .mdl-card__title{ <!-- Angra --> width: 410px;color: #fff;height: 176px;background: url("../img/angra.jpg") center/cover;}
+.my-style-cardV> .mdl-card__title{ <!-- veneza --> width: 410px;color: #fff;height: 176px;background: url("../img/veneza.jpg") center/cover;}
+.my-style-cardC> .mdl-card__title{ <!-- cataratas --> width: 410px;color: #fff;height: 176px;background: url("../img/cataratas.jpg") center/cover;}
+.my-style-cardPG> .mdl-card__title{ <!-- cataratas --> width: 410px;color: #fff;height: 176px;background: url("../img/portoGalinhas.jpg") center/cover;}
+.my-style-cardCHI> .mdl-card__title{ <!-- cataratas --> width: 410px;color: #fff;height: 176px;background: url("../img/patagonia.jpg") center/cover;}
+.my-style-cardJM> .mdl-card__title{ <!-- jirimountain --> width: 410px;color: #fff;height: 176px;background: url("../img/jiriMountain.jpg") center/cover;}
+
+.mdl-card{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.artigo-max-width{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mdl-logo{
+    color: #00bfa5;
+}
+
+.hamburguer{
+    text-align: center;
+}
+
+.logo-row {
+    min-height: 100px;
+}
+.nuss{
+    align-self: auto;
+}
+
+.font-logo {
+    font-family: 'Jua', serif;
+  }
+
+.artigo-max-width{
+    max-width: 900px;
+    margin: auto;
+}
+
+img {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+img.article-image {
+    width: 100%;
+    height: auto;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.artigo-max-width{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mdl-layout__content {
+    -ms-flex: 0 1 auto;
+    position: relative;
+    display: inline-block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    z-index: 1;
+    -webkit-overflow-scrolling: touch;
+}
+.position{
+    position: center;
+}
+.portfolio-copy {
+    max-width: 700px;
+}
+
+a{
+    color: white;
+}
+
+.tamanho{
+    left: 400px;
+    top: 200px;
+    position: absolute;
+    width: 640px;
+    height: 550px;
+}
+
+.titleAboutUS{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    
+}
+
+.perfil{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="um site de viagens">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Cristo Redentor - RJ</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/StyleSheetIndex.css">
+    <link rel="stylesheet" href="materialDesign/material.min.css">
+    <script src="materialDesign/material.min.js"></script>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jua">
+    <script src="js/estrelas.js"></script>
+</head>
+<style>
+    div {
+        display: block;
+    }
+</style>
+
+<body style="background: url(img/bg.jpg) no-repeat center center fixed; -webkit-background-size: cover;
+-moz-background-size: cover;-o-background-size: cover;
+background-size: cover;">
+
+<header class="mdl-layout__header material-icons" style="background-color: #424242" >
+    <div class="mdl-layout__header-row logo-row" >
+        <button class="mdl-button mdl-js-button mdl-button--icon">
+            <a href="Index.html" class="mdl-navigation__link">  <i class="material-icons">home</i> </a>
+        </button>
+        <img class="logo-img nuss" onclick="window.location.href='Index.html';" src="img/LogoVK.png" alt="Logo" >
+        <!-- <span class="font-logo">  Site de Viagens VK </span> Title Paage -->
+    </div>
+    <!-- Tabs -->
+</header>
+<main>
+    <div class="mdl-grid artigo-max-width">
+        <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+            <div class="mdl-card__title position">
+                <h2 class="mdl-card__title-text">Cristo Redentor - Rio de Janeiro</h2>
+            </div>
+            <div class="mdl-card__media">
+                <img class="article-image" src=" img/cristo.jpg" border="0" alt="">
+            </div>
+            <div class="mdl-card__supporting-text">
+                <strong>Palavras-Chave:</strong>
+                <span>Cristo Redentor, Rio de Janeiro e Viagens Brasil</span>
+            </div>
+            <div class="mdl-grid portfolio-copy">
+                <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Por que ir ao Rio ?</h3>
+                <div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding">
+                    <p>
+                        Principal ponto turístico do país, muito apreciado justamente devido a religiosidade das pessoas, caso se importe com isso, é de fato, um local de grande obrigação para se ir, além da bela paisagem do corcovado e outros lugares próximos no Rio de Janeiro, como a praia de Ipanema.
+                    </p>
+                </div>
+                <div class="mdl-cell mdl-cell--6-col">
+                    <img class="article-image" src=" img/cristo2.jpg" border="0" alt="">
+                </div>
+                <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">História: </h3>
+                <div class="mdl-cell mdl-cell--6-col">
+                    <img class="article-image" src=" img/cristo3.jpg" border="0" alt="">
+                </div>
+                <div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding ">
+                    <p>
+                        O monumento foi concebido pelo engenheiro brasileiro Heitor da Silva Costa e construído em colaboração com o escultor francês Paul Landowski e com o engenheiro compatriota Albert Caquot, entre 1922 e 1931. Foi inaugurada no dia 12 de outubro de 1931, dia de Nossa Senhora Aparecida e fica no bairro de Santa Teresa.
+                    </p>
+                </div>
+                <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Final Concept</h3>
+                <div class="mdl-cell mdl-cell--6-col">
+                    <img class="article-image" src=" img/cristo4cur.png" border="0" alt="">
+                </div>
+                <div class="mdl-cell mdl-cell--6-col">
+                    <img class="article-image" src=" img/cristo5cur.jpg" border="0" alt="">
+                </div>
+                <div class="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
+                    <p>
+                        O Cristo Redentor é feito de concreto armado e pedra-sabão. Tem trinta metros de altura, sem contar os oito metros do pedestal, e seus braços se esticam por 28 metros de largura. A estátua pesa 1145 toneladas e é a terceira maior escultura de Cristo no mundo, menor apenas que a Estátua de Cristo Rei de Świebodzi na Polônia (a maior escultura de Cristo no mundo) e a de Cristo de la Concordia na Bolívia (a segunda maior escultura de Cristo no mundo).
+                    </p>
+                </div>
+
+                <!-- mapa -->
+                <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Onde Fica ?</h3>
+                <div class="mdl-cell mdl-cell--6-col">
+                    <style>
+                        #map {
+                            height: 300px;
+                            width: 700px;
+                        }
+                    </style>
+                    <div id="map"></div>
+                    <script>
+                        function initMap() {
+                            var rj = {lat: -22.951911, lng: -43.2126759};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 16,
+                                center: rj
+                            });
+                            var marker = new google.maps.Marker({
+                                position: uluru,
+                                map: map
+                            });
+                        }
+                    </script>
+                    <script async defer
+                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACxX8FA89wrWGJ0d29te-i7r-FhfOXNw4&callback=initMap">
+                    </script>
+
+                </div>
+                <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Nos Avalie: </h3>
+                <div class="mdl-cell mdl-cell--6-col">
+
+                    <a href="javascript:void(0)" onclick="Avaliar(1)">
+                        <img src="img/star0.png" id="s1"></a>
+
+                    <a href="javascript:void(0)" onclick="Avaliar(2)">
+                        <img src="img/star0.png" id="s2"></a>
+
+                    <a href="javascript:void(0)" onclick="Avaliar(3)">
+                        <img src="img/star0.png" id="s3"></a>
+
+                    <a href="javascript:void(0)" onclick="Avaliar(4)">
+                        <img src="img/star0.png" id="s4"></a>
+
+                    <a href="javascript:void(0)" onclick="Avaliar(5)">
+                        <img src="img/star0.png" id="s5"></a>
+                    <p id="rating">0</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+</main>
+
+</body>
+</html>
+
+

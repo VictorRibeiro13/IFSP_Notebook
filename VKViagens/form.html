@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>HELP</title>
+    <link rel="stylesheet" href="materialDesign/material.min.css">
+    <script src="materialDesign/material.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jua">
+    <link rel="stylesheet" href="css/StyleSheetIndex.css">
+</head>
+<body style="background: url(img/bg.jpg) no-repeat center center fixed; -webkit-background-size: cover;
+-moz-background-size: cover;-o-background-size: cover;
+background-size: cover;">
+
+<header class="mdl-layout__header material-icons" style="background-color: #424242" >
+    <div class="mdl-layout__header-row logo-row" >
+        <button class="mdl-button mdl-js-button mdl-button--icon">
+            <a href="Index.html" class="mdl-navigation__link">  <i class="material-icons">home</i> </a>
+        </button>
+        <img class="logo-img nuss" onclick="window.location.href='Index.html';" src="img/LogoVK.png" alt="Logo">
+        <!-- <span class="font-logo">  Site de Viagens VK </span> Title Paage -->
+    </div>
+    <!-- Tabs -->
+</header>
+<div id ="mycard">
+
+    <div class="tamanho mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Qual o problema ? Posso ajudar ?</h2>
+        </div>
+
+
+        <div class="mdl-card__supporting-text">
+            Se identifique por favor :
+            <form action="#">
+
+                <div id="name">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" id="first">
+                        <label class="mdl-textfield__label" for="sample3">Primeiro nome</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" id="last">
+                        <label class="mdl-textfield__label" for="sample3">Ultimo nome</label>
+                    </div>
+                </div>
+
+                <div id ="contact">
+                    <div id="phone">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="mobile">
+                            <label class="mdl-textfield__label" for="sample2">Numero de Telefone</label>
+                            <span class="mdl-textfield__error">O numero precisa ser valido</span>
+                        </div>
+                    </div>
+                    <script>
+                        function pronto() {
+                            alert("Pronto!! Obrigado por seu feedback");
+                        }
+                    </script>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="email" >
+                            <label class="mdl-textfield__label" for="sample2">E-mail</label>
+                            <span class="mdl-textfield__error">entre com um email valido!</span>
+                        </div>
+                        <div id="text" class="mdl-textfield mdl-js-textfield">
+                                <textarea class="mdl-textfield__input" type="text" rows= "3" id="text" ></textarea>
+                                <label class="mdl-textfield__label" for="text">Escreva seu problema/dúvida: </label>
+                        </div>
+                    </div>
+                <div id="next">
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="pronto();">
+                    <i class="material-icons">arrow_forward</i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- FAB button with ripple -->
+
+    </div>
+</div>
+
+</body>
+</html>
