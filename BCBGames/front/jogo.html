@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>BCB GAMES</title>
+	<link rel="stylesheet" href="css/icons.css">
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!--SIDEBAR-->
+	<div id="wrapper">
+		<div id="sidebar-wrapper" class="blue-grey darken-4">
+			
+	        <ul class="sidebar-nav">
+	            <li>
+	            	<div id="info-user-menu">
+	            		<img src="img/user.png" class="circle center" alt="" id="perfil-sidebar">
+	            		<h6 class="white-text user-name-menu center user-name-menu">Lucas Koichi</h6>
+	            	</div>
+	            </li>
+	            <li class="collection-item search-component">
+	            	<form action="">
+	            		<div class="input-field row search-field">
+	            			<input type="text" name="search" class="white-text">
+	            			<label for="search">Buscar</label>
+	            			<button type="submit" class="btn blue ligthen-1" style="width:100%;">
+	            				<i class="material-icons">search</i>
+	            			</button>
+	            		</div>
+	            	</form>
+	            </li>
+	            <li class="ident">
+	            	<a href="javascript:void(0)" class="master-menu">
+	            		Usuário
+	            		<i class="material-icons right">add</i>
+	            	</a>
+	            	<ul class="child-menu blue-grey darken-3">
+	            		<li>
+	            			<a href="#">
+	            				<span>
+	            					Mensagens
+	            				</span>
+	            				<i class="material-icons right">person</i>
+	            			</a>
+	            		</li>
+	            		<li>
+	            			<a href="configPage.html">
+	            				<span>
+	            					Configurações
+	            				</span>
+	            				<i class="material-icons right">settings</i>
+	            			</a>
+	            		</li>
+	            		<li>
+	            			<a href="#">
+	            				<span>
+	            					Logout
+	            				</span>
+	            				<i class="material-icons right">keyboard_tab</i>
+	            			</a>
+	            		</li>
+	            	</ul>
+	            </li>
+	            <li class="ident">
+	            	<a href="javascript:void(0)" class="master-menu">
+	            		Jogos
+	            		<i class="material-icons right">add</i>
+	            	</a>
+	            	<ul class="child-menu blue-grey darken-3">
+	            		<li>
+	            			<a href="myjogos.html">
+	            				<span>
+	            					Meus jogos
+	            				</span>
+	            			</a>
+	            		</li>
+	            		<li>
+	            			<a href="wantjogos.html">
+	            				<span>
+	            					Jogos que eu quero
+	            				</span>
+	            			</a>
+	            		</li>
+	            		<li>
+	            			<a href="proposta.html">
+	            				<span>
+	            					Propostas
+	            				</span>
+	            			</a>
+	            		</li>
+	            	</ul>
+	            </li>
+	        </ul>
+	    </div>	
+	</div>
+	
+	<!--HEADER-->
+	<header class="navbar-fixed">
+	    <nav class="#212121 grey darken-3">
+		    <div class="nav-wrapper">
+		        <ul class="left">
+		       		<li>
+		       			<a href="javascript:void(0)" id="btn-sidebar"><i class="material-icons tiny">dehaze</i></a>
+		       		</li>
+		        	<li>
+		        		<a href="index.html" id="logo-header">BCB GAMES</a>
+		        	</li>
+		        </ul>
+		        <ul class="left hide-on-med-and-down">
+		        	<li>
+		        		<div class="center row">
+                      		<div class="col s12 " >
+                        		<div class="row" id="topbarsearch">
+                          			<div class="input-field col s6 s12 red-text">
+                            			<i class="white-text material-icons prefix">search</i>
+                            			<input type="text" placeholder="Buscar" id="autocomplete-input" class="autocomplete white-text" >
+                            		</div>
+                          		</div>
+                        	</div>
+                      	</div>
+		        	</li>
+		        </ul>
+		        <ul class="right hide-on-med-and-down">
+		        	<li>
+		        		<a href="#modal-msg" class="modal-msg-trigger">
+		        			<i class="material-icons left">mail</i>
+		        			<span class="new badge #ee6e73">3</span>
+		        		</a>
+		        	</li>
+		          	<li>
+		          		<a href="#" class="match-parent dropdown-button" data-activates="dropdown-user">
+		          			<img src="img/user.png" alt="Perfil" class="mini-perfil circle">
+		          			<span class="white-color" id="profile-name">User</span>
+		          			<i class="material-icons right">arrow_drop_down</i>
+		        		</a>
+		        		<ul class="dropdown-content" id="dropdown-user">
+		        			<li>
+		        				<a href="login.html">Login</a>
+		        			</li>
+		        			<li>
+		        				<a href="cadastro.html">Registrar</a>
+		        			</li>
+		        			<li>
+		        				<a href="configPage.html">Configurações</a>
+		        			</li>
+		        		</ul>
+		          	</li>
+		        </ul>
+		    </div>
+	    </nav>
+  	</header>
+
+	<!--MODAL FOOT-->
+	<div id="modal-msg" class="modal bottom-sheet">
+		<div class="modal-content">
+      		<h3 class="header">Notificações</h3>
+            <ul class="collection">
+              <li class="collection-item avatar">
+                <img src="img/jogoteste.jpg" alt="" class="circle">
+                <span class="title">Proposta de Troca</span>
+                <p>Você recebeu uma proposta de troca
+                  <br> Troca do jogo GTA V por um jogo seu
+                </p>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">more_horiz</i>
+                </a>
+              </li>
+              <li class="collection-item avatar">
+                <i class="material-icons circle">message</i>
+                <span class="title">Nova Mensagem</span>
+                <p>Você posssui uma nova mensagem.
+                  <br> Nova mensagem de Victor dos Santos Ribeiro.
+                </p>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons">grade</i>
+                </a>
+              </li>
+              <li class="collection-item avatar">
+                <i class="material-icons circle">account_circle</i>
+                <span class="title">Solicitação de Amizade</span>
+                <p>Você recebeu uma solicitação de amizade.
+                  <br> Fernando dos Reis Ferreira Jr. quer ser seu amigo!
+                </p>
+                <a href="#!" class="secondary-content">
+                  <i class="material-icons left">check</i>
+                  <i class="material-icons right">close</i>
+                </a>
+              </li>
+            </ul>
+    	</div>
+	</div>
+	<main style="min-height: 580px">
+
+		<div class="row">
+    		<div class="col s3">
+      			<div class="card">
+        			<div class="card-image">
+          				<img src="img/fifa18.png">
+          				<span class="card-title">FIFA 18</span>
+        			</div>
+        			<div class="card-content">
+          				<p>Melhor jogo de futebol da atualidade.</p>
+        			</div>
+      			</div>
+    		</div>
+  		
+ 		<div class="col s3">
+ 			<br>
+ 			<br>
+ 			<form action="#">
+    			<p>
+    				<input class="with-gap" name="group1" type="radio" id="test1"  checked  />
+      				<label for="test1">Eu quero</label>
+    			</p>
+    			<p>
+    				<input class="with-gap" name="group1" type="radio" id="test2"  />
+      				<label for="test2">Eu tenho</label>
+    			</p>
+    			<p>
+    				<input class="with-gap" name="group1" type="radio" id="test3"  />
+      				<label for="test3">Eu troco</label>
+    			</p>
+  			</form>
+  			<br>
+  			<button class="btn waves-effect waves-light btn-login" type="submit" name="action">Confirmar
+    		</button>
+		</div>
+		<div class="col s4">
+			<br>
+			<br>
+			<h4 class="recomendado-text">Jogos Recomendados:</h4>
+			<div class="carousel">
+    			<a class="carousel-item" href="#two!"><img src="img/gta5.jpg"></a>
+    			<a class="carousel-item" href="#three!"><img src="img/thelastofus.png"></a>
+    			<a class="carousel-item" href="#four!"><img src="img/thewitcher.png"></a>
+    			<a class="carousel-item" href="#five!"><img src="img/bf1.png"></a>
+    			<a class="carousel-item" href="#six!"><img src="img/gearsofwar.png"></a>
+    			<a class="carousel-item" href="#seven!"><img src="img/titanfall.png"></a>
+    			<a class="carousel-item" href="#eight!"><img src="img/codwwii.png"></a>
+  			</div>
+  		</div>
+  		<div class="col s2"></div>
+	</div>		
+
+    </main>
+      <footer class="page-footer " style="background-color: #424242">
+              <div class="container">
+              	<div class="row">
+                <div class="col l6 s12">
+                   <img src="img/logo.png" alt="logo" height="220" width="250">
+                </div>
+                  <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Ajuda: </h5>
+                    <ul>
+                      <li><a class="grey-text text-lighten-3" href="#!">Sobre nós</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!"> Duvidas Frequentes</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Relatar Problema</a></li>
+                    </ul>
+                     <h5 class="white-text">Bate-Papo: </h5>
+                    <ul>
+                      <li><a class="grey-text text-lighten-3" href="#!">Regras de Uso</a></li>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-copyright">
+                <div class="container">
+                ©2018 Copyright BCB
+                <a class="grey-text text-lighten-5 right" href="#!">Politica de Privacidade e Termos de uso</a>
+                </div>
+              </div>
+            </footer>
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+  	<script src="js/app.js"></script>
+</body>
+</html>
