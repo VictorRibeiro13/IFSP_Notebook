@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="302.0" prefWidth="595.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="apresentacao.FXMLAdministradorLoginController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="310.0" prefWidth="596.0">
+         <children>
+            <ImageView fitHeight="325.0" fitWidth="604.0" layoutX="-9.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Desktop/arvore.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="104.0" fitWidth="135.0" layoutX="442.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Desktop/Projeto%20LOGO%20BCB.png" />
+               </image>
+            </ImageView>
+            <JFXPasswordField layoutX="199.0" layoutY="91.0" prefHeight="25.0" prefWidth="187.0" promptText="Senha" unFocusColor="#15b85b" />
+            <JFXButton layoutX="265.0" layoutY="243.0" ripplerFill="#0a98ab" text="Entrar" textAlignment="CENTER" textFill="#17bca0">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXTextField labelFloat="true" layoutX="199.0" layoutY="49.0" prefHeight="25.0" prefWidth="187.0" promptText="Usuario" unFocusColor="#1cb85b" />
+            <JFXCheckBox layoutX="199.0" layoutY="193.0" text="Não lembro da minha Senha" />
+            <JFXButton layoutX="14.0" layoutY="14.0" ripplerFill="#0a98ab" text="&lt; Voltar" textAlignment="CENTER" textFill="#17bca0">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

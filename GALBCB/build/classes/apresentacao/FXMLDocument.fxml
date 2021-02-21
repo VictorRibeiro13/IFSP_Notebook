@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" scaleShape="false" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apresentacao.FXMLDocumentController">
+    <children>
+      <ImageView fitHeight="294.0" fitWidth="470.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/arvore.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="105.0" layoutX="358.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/Projeto%20LOGO%20BCB.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="136.0" layoutX="25.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/InstitutoFederal3.png" />
+         </image>
+      </ImageView>
+      <JFXToggleButton fx:id="btnLigar" layoutX="161.0" layoutY="184.0" onMouseClicked="#handleButtonAction" text="Começar Programa" textFill="#15acae" />
+    </children>
+</AnchorPane>

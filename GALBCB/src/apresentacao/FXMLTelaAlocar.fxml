@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="354.0" prefWidth="656.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apresentacao.FXMLTelaAlocarController">
+   <children>
+      <ImageView fitHeight="354.0" fitWidth="656.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/arvore.jpg" />
+         </image>
+      </ImageView>
+      <JFXDatePicker layoutX="24.0" layoutY="72.0" prefHeight="25.0" prefWidth="200.0" promptText="Selecione a Data de Alocação" />
+      <JFXButton layoutX="24.0" layoutY="24.0" ripplerFill="#17bca0" text="&lt; Voltar" textAlignment="CENTER" textFill="#17bca0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXComboBox focusColor="#009688" layoutX="24.0" layoutY="120.0" prefHeight="25.0" prefWidth="121.0" promptText="Tipo de Sala" />
+      <Label layoutX="17.0" layoutY="195.0" text="Horário da Alocação" />
+      <JFXTimePicker layoutX="24.0" layoutY="225.0" promptText="Entrada" />
+      <JFXTimePicker layoutX="24.0" layoutY="264.0" promptText="Saída" />
+      <Separator layoutX="270.0" layoutY="45.0" orientation="VERTICAL" prefHeight="275.0" prefWidth="7.0" />
+      <JFXCheckBox layoutX="32.0" layoutY="312.0" text="Projetor" />
+      <JFXCheckBox layoutX="137.0" layoutY="312.0" text="PC's" />
+      <JFXTreeTableView currentItemsCount="10" layoutX="299.0" layoutY="53.0" prefHeight="266.0" prefWidth="200.0" tableMenuButtonVisible="true" />
+      <Label layoutX="299.0" layoutY="30.0" text="Salas Disponiveis" />
+      <JFXButton layoutX="575.0" layoutY="306.0" ripplerFill="#0a98ab" style="-fx-background-color: #17bca0;" text="Feito" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

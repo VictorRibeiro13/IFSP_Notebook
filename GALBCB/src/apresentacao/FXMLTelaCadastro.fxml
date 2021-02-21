@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="321.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apresentacao.FXMLTelaCadastroController">
+   <children>
+      <ImageView fitHeight="321.0" fitWidth="600.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/arvore.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="104.0" fitWidth="135.0" layoutX="17.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/Projeto%20LOGO%20BCB.png" />
+         </image>
+      </ImageView>
+      <JFXPasswordField layoutX="215.0" layoutY="148.0" prefHeight="25.0" prefWidth="187.0" promptText="Senha" unFocusColor="#15b85b" />
+      <JFXButton layoutX="281.0" layoutY="265.0" ripplerFill="#0a98ab" text="Entrar" textFill="#17bca0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField labelFloat="true" layoutX="215.0" layoutY="106.0" prefHeight="25.0" prefWidth="187.0" promptText="Usuario" unFocusColor="#1cb85b" />
+      <ImageView fitHeight="104.0" fitWidth="135.0" layoutX="14.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true" />
+      <JFXButton layoutX="487.0" layoutY="14.0" text="Administrador" textFill="#139ed0" />
+      <JFXCheckBox layoutX="207.0" layoutY="195.0" text="Não lembro da minha Senha" />
+   </children>
+</AnchorPane>
